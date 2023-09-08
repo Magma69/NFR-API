@@ -1,0 +1,13 @@
+.topCard {
+    color: var(--text);
+    text-align: center;
+    font-family: var(--family2);
+    border-bottom: 1px solid var(--border-color);
+}
+.topCard p {
+    font-size: 15px;
+}
+.topCard a {
+    text-decoration: none;
+    color: var(--text)
+}

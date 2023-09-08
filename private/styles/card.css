@@ -1,0 +1,42 @@
+.cardContainer {
+    display: flex;
+}
+
+
+.Aboutcard {
+    color: var(--text);
+    border: 1px solid var(--border-color);
+    width: 50%;
+    margin: 10px;
+    padding: 5px;
+}
+
+.Aboutcard h1 {
+    font-family: var(--family);
+    text-align: center;
+}
+
+.Aboutcard p {
+    font-family: var(--family2);
+}
+
+
+.Experence {
+    color: var(--text);
+    border: 1px solid var(--border-color);
+    width: 50%;
+    margin: 10px;
+    padding: 5px;
+}
+
+.Experence h1 {
+    font-family: var(--family);
+    text-align: center;
+}
+.Experence ul {
+    font-family: var(--family2);
+}
+.Experence ul a {
+    text-decoration: none;
+    color: var(--text)
+}

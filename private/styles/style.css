@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Noto+Sans+Chorasmian&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+:root {
+    --family: 'Black Ops One', cursive;
+    --family2: 'Noto Sans Chorasmian', sans-serif;
+    --family3: 'Ubuntu', sans-serif;
+    --border-color: rgb(253, 133, 133);
+    --blocklycode-logo-1: hsl(210, 66%, 55%);
+    --blocklycode-logo-2: hsl(40, 100%, 50%);
+    --text: white;
+    --active: rgb(174, 174, 247);
+}
+
+
+
+
+
+body {
+    background: #444;
+    /* overflow-x: hidden; */
+    overflow-y: scroll;
+}
+
+
+
+.End {
+    color: var(--text);
+    text-align: center;
+    font-family: var(--family3);
+}
+
+.footer {
+    color: rgb(119, 119, 119);
+    text-align: center;
+}

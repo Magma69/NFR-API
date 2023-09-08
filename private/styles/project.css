@@ -1,0 +1,46 @@
+.myProjects {
+    display: block;
+    color: var(--text)
+}
+.myProjects .text {
+    text-align: center;
+    font-family: var(--family);
+}
+.projectList {
+    display: flex;
+}
+
+.projectCard {
+    border: 1px solid var(--border-color);
+    width: 50%;
+    margin: 10px;
+}
+.projectCard .projectCardInside {
+    padding: 5px;
+}
+
+.projectCard h3 {
+    text-align: center;
+    font-family: var(--family3);
+    font-size: 25px;
+}
+
+.projectCard h3 a {
+    text-decoration: none;
+    color: white;
+}
+
+.projectCard .underHead {
+    text-align: center;
+}
+.projectCard p {
+    padding: 5px;
+    font-family: var(--family2);
+}
+
+
+
+.projectImg {
+    width: 400px;
+    height: 300px;
+}
